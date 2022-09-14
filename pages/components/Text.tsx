@@ -4,10 +4,10 @@ const Text = () => {
     return (
         <div>
             <div className="pt-80">
-              <p className="text-3xl font-serif pl-10">
+              <p className="text-3xl font-serif pl-20">
                 We make the complex simple.
               </p>
-              <p className="text-3xl font-serif pt-8 pl-10 text-yellow-600">
+              <p className="text-3xl font-serif pt-8 pl-20 text-yellow-600">
                 We make the complex simple.
               </p>
             </div>

@@ -4,6 +4,7 @@ import Menu from "./components/Menu";
 import Text from "./components/Text";
 import Nav from "./components/Nav";
 import Image from "./components/Image";
+import Footer from "./components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -15,11 +16,12 @@ const Home: NextPage = () => {
         <link rel="stylesheet" href="../styles/globals.css" />
       </Head>
       <div className="bg-neutral-200 px-5 pt-32 pb-32 flex justify-center">
-        <div className="text-black bg-gray-100 max-w-7xl w-5/6 block">
+        <div className="text-black bg-gray-100 max-w-7xl w-5/6 flex flex-col ">
           <Menu />
           <Text />
           <Nav />
           <Image />
+          <Footer />
         </div>
       </div>
     </div>
