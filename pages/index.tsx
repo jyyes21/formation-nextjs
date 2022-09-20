@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 import Menu from "./components/Menu";
 import Text from "./components/Text";
 import Nav from "./components/Nav";
-import Image from "./components/Image";
+import Images from "./components/Images";
 import Footer from "./components/Footer";
 
 const Home: NextPage = () => {
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           <Menu />
           <Text />
           <Nav />
-          <Image />
+          <Images />
           <Footer />
         </div>
       </div>
